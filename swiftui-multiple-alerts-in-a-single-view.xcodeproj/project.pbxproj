@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04872CBD24799DC100703317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04872CBC24799DC100703317 /* AppDelegate.swift */; };
+		04872CBF24799DC100703317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04872CBE24799DC100703317 /* SceneDelegate.swift */; };
+		04872CC124799DC100703317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04872CC024799DC100703317 /* ContentView.swift */; };
+		04872CC324799DC400703317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04872CC224799DC400703317 /* Assets.xcassets */; };
+		04872CC624799DC400703317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04872CC524799DC400703317 /* Preview Assets.xcassets */; };
+		04872CC924799DC400703317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04872CC724799DC400703317 /* LaunchScreen.storyboard */; };
+		04872CD424799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04872CD324799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewTests.swift */; };
+		04872CDF24799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04872CDE24799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04872CD024799DC400703317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04872CB124799DC100703317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04872CB824799DC100703317;
+			remoteInfo = "swiftui-multiple-alerts-in-a-single-view";
+		};
+		04872CDB24799DC400703317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04872CB124799DC100703317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04872CB824799DC100703317;
+			remoteInfo = "swiftui-multiple-alerts-in-a-single-view";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04872CB924799DC100703317 /* swiftui-multiple-alerts-in-a-single-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-multiple-alerts-in-a-single-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04872CBC24799DC100703317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04872CBE24799DC100703317 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04872CC024799DC100703317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04872CC224799DC400703317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04872CC524799DC400703317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04872CC824799DC400703317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04872CCA24799DC400703317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04872CCF24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-multiple-alerts-in-a-single-viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04872CD324799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_multiple_alerts_in_a_single_viewTests.swift; sourceTree = "<group>"; };
+		04872CD524799DC400703317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04872CDA24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-multiple-alerts-in-a-single-viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04872CDE24799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_multiple_alerts_in_a_single_viewUITests.swift; sourceTree = "<group>"; };
+		04872CE024799DC400703317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04872CB624799DC100703317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04872CCC24799DC400703317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04872CD724799DC400703317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04872CB024799DC100703317 = {
+			isa = PBXGroup;
+			children = (
+				04872CBB24799DC100703317 /* swiftui-multiple-alerts-in-a-single-view */,
+				04872CD224799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests */,
+				04872CDD24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests */,
+				04872CBA24799DC100703317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04872CBA24799DC100703317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04872CB924799DC100703317 /* swiftui-multiple-alerts-in-a-single-view.app */,
+				04872CCF24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests.xctest */,
+				04872CDA24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04872CBB24799DC100703317 /* swiftui-multiple-alerts-in-a-single-view */ = {
+			isa = PBXGroup;
+			children = (
+				04872CBC24799DC100703317 /* AppDelegate.swift */,
+				04872CBE24799DC100703317 /* SceneDelegate.swift */,
+				04872CC024799DC100703317 /* ContentView.swift */,
+				04872CC224799DC400703317 /* Assets.xcassets */,
+				04872CC724799DC400703317 /* LaunchScreen.storyboard */,
+				04872CCA24799DC400703317 /* Info.plist */,
+				04872CC424799DC400703317 /* Preview Content */,
+			);
+			path = "swiftui-multiple-alerts-in-a-single-view";
+			sourceTree = "<group>";
+		};
+		04872CC424799DC400703317 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04872CC524799DC400703317 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04872CD224799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04872CD324799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewTests.swift */,
+				04872CD524799DC400703317 /* Info.plist */,
+			);
+			path = "swiftui-multiple-alerts-in-a-single-viewTests";
+			sourceTree = "<group>";
+		};
+		04872CDD24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04872CDE24799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewUITests.swift */,
+				04872CE024799DC400703317 /* Info.plist */,
+			);
+			path = "swiftui-multiple-alerts-in-a-single-viewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04872CB824799DC100703317 /* swiftui-multiple-alerts-in-a-single-view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04872CE324799DC400703317 /* Build configuration list for PBXNativeTarget "swiftui-multiple-alerts-in-a-single-view" */;
+			buildPhases = (
+				04872CB524799DC100703317 /* Sources */,
+				04872CB624799DC100703317 /* Frameworks */,
+				04872CB724799DC100703317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-multiple-alerts-in-a-single-view";
+			productName = "swiftui-multiple-alerts-in-a-single-view";
+			productReference = 04872CB924799DC100703317 /* swiftui-multiple-alerts-in-a-single-view.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04872CCE24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04872CE624799DC400703317 /* Build configuration list for PBXNativeTarget "swiftui-multiple-alerts-in-a-single-viewTests" */;
+			buildPhases = (
+				04872CCB24799DC400703317 /* Sources */,
+				04872CCC24799DC400703317 /* Frameworks */,
+				04872CCD24799DC400703317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04872CD124799DC400703317 /* PBXTargetDependency */,
+			);
+			name = "swiftui-multiple-alerts-in-a-single-viewTests";
+			productName = "swiftui-multiple-alerts-in-a-single-viewTests";
+			productReference = 04872CCF24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04872CD924799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04872CE924799DC400703317 /* Build configuration list for PBXNativeTarget "swiftui-multiple-alerts-in-a-single-viewUITests" */;
+			buildPhases = (
+				04872CD624799DC400703317 /* Sources */,
+				04872CD724799DC400703317 /* Frameworks */,
+				04872CD824799DC400703317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04872CDC24799DC400703317 /* PBXTargetDependency */,
+			);
+			name = "swiftui-multiple-alerts-in-a-single-viewUITests";
+			productName = "swiftui-multiple-alerts-in-a-single-viewUITests";
+			productReference = 04872CDA24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04872CB124799DC100703317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					04872CB824799DC100703317 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					04872CCE24799DC400703317 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04872CB824799DC100703317;
+					};
+					04872CD924799DC400703317 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04872CB824799DC100703317;
+					};
+				};
+			};
+			buildConfigurationList = 04872CB424799DC100703317 /* Build configuration list for PBXProject "swiftui-multiple-alerts-in-a-single-view" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04872CB024799DC100703317;
+			productRefGroup = 04872CBA24799DC100703317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04872CB824799DC100703317 /* swiftui-multiple-alerts-in-a-single-view */,
+				04872CCE24799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewTests */,
+				04872CD924799DC400703317 /* swiftui-multiple-alerts-in-a-single-viewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04872CB724799DC100703317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04872CC924799DC400703317 /* LaunchScreen.storyboard in Resources */,
+				04872CC624799DC400703317 /* Preview Assets.xcassets in Resources */,
+				04872CC324799DC400703317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04872CCD24799DC400703317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04872CD824799DC400703317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04872CB524799DC100703317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04872CBD24799DC100703317 /* AppDelegate.swift in Sources */,
+				04872CBF24799DC100703317 /* SceneDelegate.swift in Sources */,
+				04872CC124799DC100703317 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04872CCB24799DC400703317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04872CD424799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04872CD624799DC400703317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04872CDF24799DC400703317 /* swiftui_multiple_alerts_in_a_single_viewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04872CD124799DC400703317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04872CB824799DC100703317 /* swiftui-multiple-alerts-in-a-single-view */;
+			targetProxy = 04872CD024799DC400703317 /* PBXContainerItemProxy */;
+		};
+		04872CDC24799DC400703317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04872CB824799DC100703317 /* swiftui-multiple-alerts-in-a-single-view */;
+			targetProxy = 04872CDB24799DC400703317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04872CC724799DC400703317 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04872CC824799DC400703317 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04872CE124799DC400703317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04872CE224799DC400703317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04872CE424799DC400703317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-multiple-alerts-in-a-single-view/Preview Content\"";
+				DEVELOPMENT_TEAM = 657PH5AW2Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-multiple-alerts-in-a-single-view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swiftui-multiple-alerts-in-a-single-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04872CE524799DC400703317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-multiple-alerts-in-a-single-view/Preview Content\"";
+				DEVELOPMENT_TEAM = 657PH5AW2Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-multiple-alerts-in-a-single-view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swiftui-multiple-alerts-in-a-single-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04872CE724799DC400703317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 657PH5AW2Q;
+				INFOPLIST_FILE = "swiftui-multiple-alerts-in-a-single-viewTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swiftui-multiple-alerts-in-a-single-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-multiple-alerts-in-a-single-view.app/swiftui-multiple-alerts-in-a-single-view";
+			};
+			name = Debug;
+		};
+		04872CE824799DC400703317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 657PH5AW2Q;
+				INFOPLIST_FILE = "swiftui-multiple-alerts-in-a-single-viewTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swiftui-multiple-alerts-in-a-single-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-multiple-alerts-in-a-single-view.app/swiftui-multiple-alerts-in-a-single-view";
+			};
+			name = Release;
+		};
+		04872CEA24799DC400703317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 657PH5AW2Q;
+				INFOPLIST_FILE = "swiftui-multiple-alerts-in-a-single-viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swiftui-multiple-alerts-in-a-single-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-multiple-alerts-in-a-single-view";
+			};
+			name = Debug;
+		};
+		04872CEB24799DC400703317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 657PH5AW2Q;
+				INFOPLIST_FILE = "swiftui-multiple-alerts-in-a-single-viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifhossen.swiftui-multiple-alerts-in-a-single-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-multiple-alerts-in-a-single-view";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04872CB424799DC100703317 /* Build configuration list for PBXProject "swiftui-multiple-alerts-in-a-single-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04872CE124799DC400703317 /* Debug */,
+				04872CE224799DC400703317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04872CE324799DC400703317 /* Build configuration list for PBXNativeTarget "swiftui-multiple-alerts-in-a-single-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04872CE424799DC400703317 /* Debug */,
+				04872CE524799DC400703317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04872CE624799DC400703317 /* Build configuration list for PBXNativeTarget "swiftui-multiple-alerts-in-a-single-viewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04872CE724799DC400703317 /* Debug */,
+				04872CE824799DC400703317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04872CE924799DC400703317 /* Build configuration list for PBXNativeTarget "swiftui-multiple-alerts-in-a-single-viewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04872CEA24799DC400703317 /* Debug */,
+				04872CEB24799DC400703317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04872CB124799DC100703317 /* Project object */;
+}
